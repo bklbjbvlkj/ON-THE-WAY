@@ -1,0 +1,82 @@
+/* خلفية الصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.imgur.com/nKBf32j.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #FF6A00;
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #FF6A00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e55b00;
+}
+
+.back-button {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.back-button a {
+    color: #FF6A00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* تصميم المربعات */
+.info-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.info-box h3 {
+    color: #FF6A00;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.info-box p {
+    margin: 5px 0;
+    font-size: 0.95em;
+    color: #333;
+}
